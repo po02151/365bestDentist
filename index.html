@@ -1776,8 +1776,8 @@
 
 
     
-    <div class="md:w-full w-[90%] mx-auto mb-[1000px]">
-        <div class="md:pl-[16.66%] box-border lg:mb-20 md:mb-[60px] mb-10">
+    <div class="md:w-full w-[90%] mx-auto xl:h-[450px!important] lg:h-[500px!important] h-[490px!important]">
+        <div class="md:pl-[16.66%] box-border lg:mb-20 md:mb-[60px] mb-10 py-20">
             <div class="doctor-swiper-container xl:h-[450px!important] lg:h-[500px!important] h-[490px!important] flex-1 overflow-hidden">
                 <ul class="swiper-wrapper !ml-0">
                     <li class="swiper-slide xl:w-[910px!important] md:w-[720px!important] w-[90%] overflow-hidden">
@@ -2470,10 +2470,10 @@
 
     <script>
         const doctorSwiper = new Swiper('.doctor-swiper-container', {
-            // autoplay: {
-            //     delay: 1500, // 슬라이드 간 전환 시간 (밀리초 단위)
-            //     disableOnInteraction: false, // 사용자가 슬라이드를 조작해도 자동 재생 유지
-            // },
+            autoplay: {
+                delay: 1500, // 슬라이드 간 전환 시간 (밀리초 단위)
+                disableOnInteraction: false, // 사용자가 슬라이드를 조작해도 자동 재생 유지
+            },
             // Optional parameters
             direction: 'horizontal',
             loop: true,
